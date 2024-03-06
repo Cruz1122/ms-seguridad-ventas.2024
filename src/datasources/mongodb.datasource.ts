@@ -4,12 +4,12 @@ import {juggler} from '@loopback/repository';
 const config = {
   name: 'mongodb',
   connector: 'mongodb',
-  url: 'mongodb+srv://user_mongo_ventas:Admin2024-1@clustermongo.xjf4ecp.mongodb.net/?retryWrites=true&w=majority&appName=ClusterMongo',
-  host: 'localhost',
-  port: 27017,
+  url: 'mongodb+srv://user_mongo_ventas:Admin2024-1@clustermongo.xjf4ecp.mongodb.net/SeguridadVentasBD?retryWrites=true&w=majority&appName=ClusterMongo',
+  host: '',
+  port: '',
   user: '',
   password: '',
-  database: 'seguridad_ventas',
+  database: '',
   useNewUrlParser: true,
 };
 
